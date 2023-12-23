@@ -1,3 +1,9 @@
+/*Heading */
+article:nth-child(1) h1:nth-child(1).pTtl{display:none}
+
+/*For Scroll Of header */
+.header{position:relative;top:0px}
+
 /*For Post Layout (PL)*/
 
 /*Posts */
@@ -256,7 +262,7 @@ position:relative;
         
   
   
-    .overlay {
+    .overlay_Mute {
       position: absolute;
       top: 0;
       left: 0;
