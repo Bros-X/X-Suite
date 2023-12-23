@@ -1,4 +1,98 @@
+/* Filter Material */
+.filter-container {
+        /*display:grid;place-items: center*/
+        ;
+        width: 100%;
+        margin: 0px 0% 0px 0px;
+     border:1px solid transparent;
+     /* position:relative;*/
+    }
+    
+    .filt-Opt {
+        border:0px solid #efefef;
+        display: grid;
+      /*width:100%;*/
+        padding:1px 0px;
+        margin:0px 0px 0px 0px;
+        border-radius:0px;
+        background: var(--bodyB);
+     position: absolute;top:0;left:0;right:0;
+      z-index:8;
+      transition:top 0.4s ease-in-out;
+      height:auto
+    }
+    
+    .drK .filt-Opt {
+       background: var(--darkB);
+        border: 0px solid var(--darkBa);
+      
+    }
+    
+    .filter-options {
+      /*width:100%;*/
+        display: flex;
+        overflow-x: scroll;
+      overflow-y:hidden;
+      :-webkit-scrollbar-width: none;
+        /*justify-content: center;*/
+        transform: translateY(0px);
+        scroll-behavior: smooth;
+      border:0px solid #000;height:auto;
+      
+    }
+    
+    .filter-options::-webkit-scrollbar {
+        display: none;
+    }
+    
+   .filter-options .filter-btn{
+     width:100%;
+    font-weight:600;
+        margin:5px;
+        padding: 5px 20px;
+        background:#EEEEEE;
+        border:1px solid #E9E9E9;
+        border-radius:9px;
+        cursor: pointer;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+    }
 
+    .drK .filter-btn {
+        background: var(--darkBs);
+    }
+    
+    .filter-btn.active {
+        background-color:#5693F6;
+      color:#fff;
+        border:1px solid transparent;
+        transition: 0.2s ease;
+    }
+    
+    .drK .filter-btn.active {
+        background:#5693F6;
+        border:1px solid transparent;
+      color:#fff
+    } 
+    .filter-item.hidden {
+        display: none;
+    }
+    
+    .sliup {
+        margin-bottom: 0px;
+        animation: slide-up 0.5s;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    @-webkit-keyframes slide-up {
+        0% {
+            -webkit-transform: translateY(100%);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+        }
+    }
 
 /*Heading */
 article:nth-child(1) h1:nth-child(1).pTtl{display:none}
