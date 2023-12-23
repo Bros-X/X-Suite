@@ -1,7 +1,10 @@
 /* Filter Material*/
+.Fltr_Ico{display:flex;justify-content:flex-start;align-items:center;padding:0px 0px 0px 7px}
+.Fltr_Ico span{letter-spacing: -4px;}
+
  .filter-container {
         /*display:grid;place-items: center*/
-        ;
+       position:relative; padding:48px 0px 0px 0px
         width: 100%;
         margin: 0px 0% 0px 0px;
      border:1px solid transparent;
