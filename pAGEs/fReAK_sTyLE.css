@@ -1,3 +1,6 @@
+/* Some Structure*/
+.blogM{width:100%}
+
 /* Filter Material*/
 
 /* > filter left/right button < */
@@ -37,7 +40,8 @@ left:0px;bottom:0;border-radius:0px 100px 100px 0px;
         width: 100%;
         margin: 0px 0% 0px 0px;
      border:1px solid transparent;
-  min-width:100%;
+     width:100%;object-fit:cover;min-width:100%;
+     scroll-behavior:smooth;height:100%;
      /* position:relative;*/
     }
     
@@ -146,7 +150,8 @@ article:nth-child(1) h1:nth-child(1).pTtl{display:none}
 display: grid;
 grid-template-columns: repeat(2, 1fr);
   gap:10px;
-padding:2px;border:0px solid #000;margin-top:10px}
+padding:2px;border:0px solid #000;margin-top:10px;
+scroll-behavior:smooth;height:100%;}
 .BlogpTsP svg{width:19px;height:19px}
 .BlogpTsP article{box-shadow:none;padding:0;}
 
@@ -294,6 +299,7 @@ position:relative;
          /* place-items:center;*/
             overflow-y: hidden;
             scroll-snap-type: y mandatory;
+            min-width:100%;
         }
 /*@media only screen and (min-width: 600px) {
   
