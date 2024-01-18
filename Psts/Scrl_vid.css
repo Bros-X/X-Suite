@@ -8,3 +8,6 @@
 .secIn{
    display:block 
         }
+.grid{
+ display: grid;
+}
