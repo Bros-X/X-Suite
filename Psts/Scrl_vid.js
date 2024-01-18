@@ -1,0 +1,10 @@
+ 
+.overlay-loader{position: absolute;left:0;right:0;bottom:0;top:0;width:100%;height:calc(100% - 90px);
+      
+      background-color: rgba(0, 0, 0, 0);border:0px solid #408cff;}  
+.overlay-loader span{width:60px;height:60px;aspect-ratio:1/1;border-radius:50%;border:3px solid #408cff;border-top:3px solid #fff; position:absolute;top:calc(50% - 30px);left:calc(50% - 30px);animation: spin 1s linear infinite;
+  }
+  
+.secIn{
+   display:block 
+        }
